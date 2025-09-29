@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box; /*паддинги и бордеры не влияют на остальные элементы*/
+}
+
+html,body {
+    height: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.page-header{
+    background-color: #ffffff;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    height: 72px;
+    padding: 14px;
+    justify-content: space-between;
+    width: 1440px;
+    
+    /* height: 72px; */
+}
+
+.nav-menu{
+    gap: 8px;
+}
+
+.nav-menu-button{
+    /* width: 99px; */
+    /* border: 1px; */
+    /* display: inline-block; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaecf0;
+    background-color: #ffffff;
+    border-radius: 999px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+}
+
+.nav-menu-button-label{
+    /* width: 59px;
+    height: 24px; */
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    vertical-align: middle;
+    font-family: 'Inter';
+    /* line-height: 24px; */
+    color: #0d1421;
+}
+
+.brand-and-nav{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.brand-logo{
+    width: 32px;
+    height: 32px;
+}
+
+.brand-name{
+    width: 133px;
+    height: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    color: #354153;
+    letter-spacing: 0;
+}
+
+.action-section{
+    gap: 8px;
+    width: 406px;
+    display: flex;
+    justify-content: right;
+}
+
+.action-section-button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaecf0;
+    background-color: #ffffff;
+    border-radius: 999px;
+    padding: 10px;
+    gap: 10px;
+}
