@@ -1,14 +1,18 @@
 * {
     box-sizing: border-box; /*паддинги и бордеры не влияют на остальные элементы*/
+    margin: 0;
 }
 
 html,body {
     height: 100%;
     background-color: #F5F5F5;
     display: flex;
-    /* align-items: center; */
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
 }
+
 
 .page-header{
     background-color: #ffffff;
@@ -20,7 +24,7 @@ html,body {
     padding: 14px;
     justify-content: space-between;
     width: 1440px;
-    
+
     /* height: 72px; */
 }
 
@@ -91,4 +95,61 @@ html,body {
     border-radius: 999px;
     padding: 10px;
     gap: 10px;
+}
+
+.under-header{
+    display: flex;
+    /* background-color: #0d1421; */
+    width: 1920px;
+    padding: 32px 274px 32px 274px;
+    margin-top: 0px;
+    gap: 10px;
+    align-items: center;
+}
+
+.under-header-shops{
+    width: 1372px;
+    gap: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-all-shops{
+    width: 1205px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0;
+    color: #0d1421;
+}
+
+.under-header-shops-button{
+    border-style: none;
+    /* border-width: 1px;
+    border-color: #eaecf0; */
+    background-color: #ffffff;
+    border-radius: 999px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.filtres{
+    width: 73px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #0d1421;
+}
+
+.filtres-icon{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
 }
