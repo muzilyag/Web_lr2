@@ -153,3 +153,42 @@ html,body {
     display: flex;
     justify-content: center;
 }
+
+.main-body{
+    display: flex;
+    margin-left: 240px;
+    gap: 32px;
+}
+
+.buy{
+    border-radius: 32px;
+    background-color: #ffffff;
+    gap: 16px;
+}
+
+.buy-discriptionn{
+    width: 345px;
+    padding: 0 24px 24px 24px;
+    gap: 4px;
+    /* display: flex; */
+}
+
+.buy-discription-cost{
+    width: 297px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 30px;
+    color: #0d1421;
+    line-height: 40px;
+}
+
+.buy-discription-name{
+    width: 297px;
+    height: 40px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #0d1421;
+    line-height: 24px;
+}
